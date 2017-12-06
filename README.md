@@ -70,15 +70,15 @@ hopefully you have some knowledge of OpenGL before hand. The classes handle almo
 none of the setup for OpenGL's camera, lighting, etc.
 
 ### Map of Flatland:
-          ^
-          |
-          y
-          |
-          |
-          |
- <--------x------->
+    //          ^
+    //          |
+    //          y
+    //          |
+    //          |
+    //          |
+    // <--------x------->
 
- Positions are handled with SFML's Vector class.
+Positions are handled with SFML's Vector class.
 
 ### Current demo: Test Cases
 
