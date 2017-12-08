@@ -138,7 +138,7 @@ int main() {
     // screen.
     glViewport(0, 12 * window.getSize().y / 25,
             window.getSize().x, window.getSize().y / 25);
-    // Sets projection matrices for open gl. Frustum only takes only a very 
+    // Sets projection matrices for open gl. Frustum only takes only a very
     // thin slice of the world.
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
@@ -147,7 +147,7 @@ int main() {
     glFrustum(-1, 1, -0.0003, 0.0003, 1, 900);
     // Normalizes normal vectors drawn by OpenGL. Necessary for scaling.
     glEnable(GL_NORMALIZE);
-    
+
     // TODO add music?
 
     // Load font.
@@ -159,7 +159,7 @@ int main() {
     // Rotates objects
     bool rotate = true;
     float angle = 0;
-    
+
     // TODO
     // Add actual creativity to my project. Like flowers. that would be cool.
     // Initialize flatland.
@@ -171,7 +171,7 @@ int main() {
     flatland.addShape(WavefrontShape(Vector3f(0, -400, 0), 0.2, 0, testWolf));
     // Load test cube
     std::ifstream testCube ("data/test.obj");
-    flatland.addShape(WavefrontShape(Vector3f(0, 200, 0), 50, 0, testCube)); 
+    flatland.addShape(WavefrontShape(Vector3f(0, 200, 0), 50, 0, testCube));
     // Adds triangle of radius 50.
     flatland.addShape(Polygon(Vector2f(0, 600), 3, 50, PI));
 

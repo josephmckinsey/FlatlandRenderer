@@ -1,4 +1,4 @@
-/* CSCI 261B : Final Project: WavefrontShape Declaration File 
+/* CSCI 261B : Final Project: WavefrontShape Declaration File
  *
  * Description: Declares WavefrontShape class. WavefrontShape allows
  * wavefront .obj files to be loaded and drawn correctly in flatland.
@@ -31,4 +31,3 @@ class WavefrontShape : public FlatShape {
 };
 
 #endif
-

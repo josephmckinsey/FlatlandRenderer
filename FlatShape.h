@@ -1,4 +1,4 @@
-/* CSCI 261B : Final Project: FlatShape Declaration File 
+/* CSCI 261B : Final Project: FlatShape Declaration File
  *
  * Description: Declares FlatShape class. This serves as an inheritance class
  * for the other shapes and models in flatland.

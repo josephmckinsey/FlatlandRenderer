@@ -61,7 +61,7 @@ void FlatShape::draw() {
     glTranslatef(_position.x, _position.z, -_position.y);
     glScalef(_scale, _scale, _scale);
     glRotatef(_rotation / PI * 180, 0, 1, 0);
-    
+
     // Use vertex array.
     glEnableClientState(GL_VERTEX_ARRAY);
     if (_outVertices.size() == _outNormals.size()) {

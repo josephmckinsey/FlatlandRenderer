@@ -88,7 +88,7 @@ Positions are handled with SFML's Vector class.
 1. Wolf loaded from an obj file.
 1. Triangle in the back.
 
-### Potential Improvements for the Future 
+### Potential Improvements for the Future
 - [ ] Add music to demo.
 - [ ] More comprehensive FlatShape base class.
 - [ ] Using autoconf and others to streamline makefile process.
