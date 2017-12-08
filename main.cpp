@@ -158,7 +158,7 @@ int main() {
     }
     // Rotates objects
     bool rotate = true;
-    float angle;
+    float angle = 0;
     
     // TODO
     // Add actual creativity to my project. Like flowers. that would be cool.
