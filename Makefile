@@ -1,10 +1,10 @@
 CC = g++ -Wall -g -std=c++11
 flags = -I/usr/include -fPIC -c
 OBJ = main.o Flatland.o FlatShape.o Polygon.o WavefrontShape.o
-LINK = -L/usr/lib -lsfml-graphics -lsfml-window -lsfml-system -lGL 
+LINK = -L/usr/lib -lsfml-graphics -lsfml-window -lsfml-system -lGL
 
 a.out : $(OBJ)
-	$(CC) -o a.out $(OBJ) $(LINK) 
+	$(CC) -o a.out $(OBJ) $(LINK)
 
 main.o : main.cpp Flatland.h Polygon.h
 	$(CC) $(flags) -o main.o main.cpp

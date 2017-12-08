@@ -151,7 +151,7 @@ void Flatland::drawHUD(const Font &myFont, RenderWindow* window) {
                textRect.top  + textRect.height/2.0f);
         compass.setPosition(-sin(_cameraAngle - 3 * PI / 2) * window->getSize().x + window->getSize().x / 2.0, 11 * window->getSize().y / 25.0);
     }
-  
+
     window->draw(compass);
 }
 

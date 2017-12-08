@@ -1,4 +1,4 @@
-/* CSCI 261B : Final Project: WavefrontShape Declaration File 
+/* CSCI 261B : Final Project: WavefrontShape Declaration File
  *
  * Description: Declares WavefrontShape class. WavefrontShape allows
  * wavefront .obj files to be loaded and drawn correctly in flatland.
@@ -64,14 +64,14 @@ void WavefrontShape::loadObj(std::ifstream &objFile) {
     // Initialize temporary variables for reading in from file.
     float x, y, z;
     std::string argument;
-    
+
     // Check if file was opened correctly.
     if ( objFile.fail() ) {
         std::cerr << "Failed to read from file stream." << std::endl;
     }
     // Read in until stream empty.
     while (!objFile.eof()) {
-        // Gets argument. Should always be first command on line. 
+        // Gets argument. Should always be first command on line.
         objFile >> argument;
         if (argument.at(0) == '#') {
             // Gets rest of line: will only include /n if the argument was just #.

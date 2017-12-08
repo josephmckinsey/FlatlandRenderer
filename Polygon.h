@@ -1,4 +1,4 @@
-/* CSCI 261B : Final Project: Polygon Declaration File 
+/* CSCI 261B : Final Project: Polygon Declaration File
  *
  * Description: Declares polygon class. Polygons are the people of flatland.
  * They are important. May consider making them have speech interaction
